@@ -8,7 +8,11 @@
 
 general {
         colors = true
+<<<<<<< master
         interval = 1
+=======
+        interval = 5
+>>>>>>> rename i3status.conf in config
 }
 
 #order += "ipv6"
