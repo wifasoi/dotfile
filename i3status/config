@@ -18,7 +18,7 @@ general {
 order += "wireless _first_"
 order += "ethernet _first_"
 #order += "battery 0"
-order += "load"
+order += "cpu_usage"
 order += "tztime local"
 
 wireless _first_ {
@@ -55,3 +55,8 @@ load {
 disk "/" {
         format = "%avail"
 }
+
+cpu_usage{ 
+        format = ":%usage"
+}
+
