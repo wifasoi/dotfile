@@ -182,3 +182,4 @@ exec_always --no-startup-id feh --bg-fill ~/Images/AnExellentDesktop.png
 
 #startup programs
 exec --no-startup-id telegram-desktop -startintray
+exec --no-startup-id dropbox
